@@ -27,7 +27,6 @@ The algorithm makes a random decision for each elevator, choosing between each o
 possibilities with equal probability. These choices are made independently for each elevator.
 
 Pushy Passenger algorithm
-
 This algorithm makes a decision independently for each elevator.
 If the elevator is empty (has no passengers), it moves towards thelowest floor that has at least one
 person waiting, or stays still if there are no people waiting. Because the decisions are independent for
@@ -36,6 +35,7 @@ If the elevator isn’t empty, it moves towards the target floor of thefirst pas
 elevator.
 
 Short-sighted algorithm
+
 This algorithm makes a decision independently for each elevator.
 If the elevator is empty, it moves towards theclosest floor that has at least one person waiting, or stays
 still if there are no people waiting. In the case of ties (e.g. if the elevator is at floor 3, and there are
