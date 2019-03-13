@@ -1,6 +1,6 @@
 # Elevator Simulations
 
-The files sprites.py and visualizer.py were provided by or modified from starter code provided by David Liu, Assistant Professor at the University of Toronto.
+The files sprites.py and visualizer.py were provided by or modified from starter code provided by David Liu, Professor at UofT.
 
 To run the program, run simulation.py and a pygame window will appear, displaying the contents of the simulation. 
 
