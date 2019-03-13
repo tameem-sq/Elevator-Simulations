@@ -9,6 +9,7 @@ Refer to the .png file in this repository to see what the pygame window will loo
 To run this program, you will need python 3.0 or grater, and pygame installed.
 
 Elevator moving algorithms
+
 Each round, an elevator moving algorithm makes a decision about where each elevator should move.
 Because an elevator can only move one floor per round, this decision can have one of three outputs: the
 elevator should move up, move down, or stay in the same location.
@@ -21,10 +22,12 @@ fun and interesting elevator algorithms could be implemented! This program imple
 algorithms.
 
 Random algorithm
+
 The algorithm makes a random decision for each elevator, choosing between each of the three
 possibilities with equal probability. These choices are made independently for each elevator.
 
 Pushy Passenger algorithm
+
 This algorithm makes a decision independently for each elevator.
 If the elevator is empty (has no passengers), it moves towards thelowest floor that has at least one
 person waiting, or stays still if there are no people waiting. Because the decisions are independent for
