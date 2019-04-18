@@ -1,4 +1,4 @@
-"""CSC148 Assignment 1 - Visualizer
+"""Visualizer
 
 === CSC148 Fall 2018 ===
 Department of Computer Science,
